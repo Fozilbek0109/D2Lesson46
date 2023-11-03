@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/container1"
+    tools:context=".ThirdActivity">
+
+    <Button
+        android:id="@+id/btn_tasdiq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="Tasdiqlash1"
+
+        />
+    <Button
+        android:id="@+id/btn_tasdiq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tasdiqlash2"
+        android:onClick="click"
+
+        />
+    <Button
+        android:id="@+id/btn_tasdiq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tasdiqlash3"
+        android:onClick="click"
+
+        />
+    <Button
+        android:id="@+id/btn_tasdiq4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tasdiqlash4"
+        android:onClick="click"
+
+        />
+    <Button
+        android:id="@+id/btn_tasdiq5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tasdiqlash5"
+        android:onClick="click"
+
+        />
+
+</LinearLayout>
